@@ -1,0 +1,29 @@
+~net-proxy/burpsuite-1.5
+=net-proxy/zaproxy-2.9*
+
+net-proxy/redsocks
+~net-proxy/bdfproxy-0.3.9
+net-proxy/3proxy
+net-proxy/dansguardian
+net-proxy/dante
+net-proxy/haproxy
+net-proxy/havp
+net-proxy/httpush
+=net-proxy/mitmproxy-7* amd64
+net-proxy/ntlmaps
+~net-proxy/ratproxy-1.58
+net-proxy/pingtunnel
+net-proxy/piper
+~net-proxy/proxenet-0.4.1
+~net-proxy/proxenet-plugins-9999
+net-proxy/squid
+net-proxy/squidclamav
+net-proxy/squirm
+net-proxy/sshproxy
+net-proxy/tsocks
+net-proxy/ufdbguard
+net-proxy/webscarab
+net-proxy/ziproxy
+
+#we need this version or higher to avoid useradd/groupadd collisions
+~net-proxy/privoxy-3.0.28

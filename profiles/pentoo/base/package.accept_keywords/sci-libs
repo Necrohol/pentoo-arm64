@@ -1,0 +1,14 @@
+#Pentoo
+sci-electronics/migen
+sci-electronics/litex
+sci-electronics/litedram
+sci-electronics/litepcie
+sci-electronics/liteusb
+sci-electronics/liteeth
+sci-electronics/litescope
+
+#Gentoo packages
+~sci-libs/blas-reference-20161223
+~sci-libs/cblas-reference-20161223
+#required by app-forensics/eagleeye deps
+~sci-libs/dlib-19.16

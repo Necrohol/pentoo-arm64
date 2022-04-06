@@ -1,0 +1,8 @@
+### Pentoo ###
+sys-devel/gdb-dashboard
+sys-devel/gcc-arm-none-eabi
+sys-devel/pwndbg
+
+### Gentoo ###
+#opencl stuff unversioned on purpose
+sys-devel/llvm-roc

@@ -1,0 +1,2 @@
+# ensure swclock not hwclock is used
+>=sys-apps/openrc-0.42.1-r1 swclock-fix

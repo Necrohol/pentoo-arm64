@@ -1,0 +1,64 @@
+#kill python 2.7
+~dev-libs/libgnt-2.14.3
+
+#vlc bluray
+=dev-libs/libudfread-1.1*
+
+#python 3.9
+~dev-libs/gobject-introspection-1.66.1
+~dev-libs/gobject-introspection-common-1.66.1
+=dev-libs/libpeas-1.28.0
+=dev-libs/libpeas-1.28.0-r100
+
+### Pentoo ##############
+
+~dev-libs/libguytools2-2.1.0
+
+#libvshadow
+dev-libs/libcerror
+dev-libs/libcthreads
+dev-libs/libcdata
+dev-libs/libclocale
+dev-libs/libcnotify
+dev-libs/libcdatetime
+dev-libs/libcsplit
+dev-libs/libuna
+dev-libs/libcfile
+dev-libs/libcpath
+dev-libs/libfguid
+dev-libs/libfdatetime
+dev-libs/libcstring
+dev-libs/libcsystem
+dev-libs/libfcache
+dev-libs/libfdata
+dev-libs/libfvalue
+dev-libs/libfwnt
+dev-libs/libfmapi
+dev-libs/libsmdev
+
+#kismet
+dev-libs/protobuf amd64
+
+#frida-gum
+dev-libs/libdwarf
+
+### Gentoo ############
+#usbguard
+=dev-libs/pegtl-2.8*
+=dev-libs/capstone-4.0*
+=dev-libs/libnfc-1.8*
+
+#opencl stuff unversioned and not by accident
+dev-libs/intel-neo
+#dev-libs/opencl-icd-loader
+dev-libs/opencl-clang
+dev-libs/rocclr
+dev-libs/rocm-opencl-runtime
+dev-libs/rocr-runtime
+dev-libs/rocm-comgr
+dev-libs/rocm-device-libs
+dev-util/rocm-cmake
+dev-libs/roct-thunk-interface
+
+#required by gef
+=dev-libs/keystone-0.9*

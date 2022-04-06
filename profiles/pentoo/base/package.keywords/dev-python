@@ -1,0 +1,12 @@
+~dev-python/pyside2-5.15.2 amd64 x86
+~dev-python/shiboken2-5.15.2 amd64 x86
+
+#empire
+=dev-python/xlutils-2.0* amd64 x86
+=dev-python/errorhandler-2.0* amd64 x86
+
+#sslyze
+=dev-python/Faker-11* amd64 x86
+
+#dev-python/quark-engine
+=dev-python/plotly-5.2*  amd64 x86

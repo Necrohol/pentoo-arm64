@@ -1,0 +1,11 @@
+sys-apps/fwupd agent amt archive bash-completion dell fastboot flashrom gnutls gusb logitech modemmanager nvme pkcs7 redfish spi synaptics thunderbolt tpm uefi
+sys-apps/gnome-disk-utility fat
+sys-apps/hwdata-gentoo binary-drivers
+sys-apps/lm-sensors sensord
+sys-apps/lm_sensors sensord
+sys-apps/shadow bcrypt
+sys-apps/systemd -sysv-utils
+sys-apps/usermode-utilities fuse
+
+#dev-python/python-magic requires file[-python]
+sys-apps/file -python

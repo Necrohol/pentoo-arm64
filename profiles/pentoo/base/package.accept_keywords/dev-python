@@ -1,0 +1,421 @@
+#Pentoo packages
+#routersploit
+dev-python/bluepy
+#killerbee
+dev-python/rangeparser
+
+dev-python/cmake-converter
+
+~dev-python/pyotherside-1.5.9 ~amd64
+
+#gentoo is just old as shit
+#apple_bleee
+dev-python/fleep
+dev-python/ctypescrypto
+
+#calamares
+dev-python/PythonQt
+
+#kismetdb
+dev-python/simplekml
+#kismet-analyzer
+dev-python/pygeoif
+dev-python/fastkml
+
+#qspectrumanalyzer
+~dev-python/pyqtgraph-0.10.0
+dev-python/pyFFTW
+dev-python/qt-py
+dev-python/simplespectral
+dev-python/simplesoapy
+
+#required by veil-evasion
+=dev-python/pyinstaller-3*
+
+#required by "yubioath-desktop"
+dev-python/pycopy-binascii
+
+#required by net-analyzer/crackmapexec
+#pentoo packages
+dev-python/impacket
+dev-python/pypsrp
+dev-python/lsassy
+dev-python/pywerview
+
+############ Gentoo unstable ======================
+~dev-python/ldap3-2.7
+~dev-python/requests-credssp-2.0.0 ~amd64
+~dev-python/nltk-2.0.1_rc1
+=dev-python/pyusb-1.0*
+~dev-python/gst-python-0.10.22
+~dev-python/pysvn-1.7.8
+=dev-python/intervaltree-3.1*
+
+#gnuradio
+~dev-python/markdown-2.1.1
+~dev-python/pybind11-2.5.0
+~dev-python/breathe-4.14.1
+
+#required by wapiti
+~dev-python/requests-1.2.3
+~dev-python/charade-1.0.3
+~dev-python/yaswfp-0.9.3
+=dev-python/tld-0.12*
+=dev-python/requests-ntlm-1.1*
+=dev-python/ntlm-auth-1*
+
+#requied by mitmproxy
+dev-python/publicsuffix amd64
+dev-python/pyasn1
+~dev-python/blinker-1.4
+~dev-python/construct-2.8.10
+~dev-python/cryptography-2.9
+~dev-python/dataclasses-0.7
+=dev-python/h11-0.12*
+~dev-python/html2text-2016.5.29
+~dev-python/hyper-h2-3.0.1
+~dev-python/hyperframe-5.1.0
+~dev-python/kaitaistruct-0.9
+~dev-python/netlib-0.10
+~dev-python/pillow-2.3.0
+dev-python/pyopenssl amd64
+~dev-python/pyperclip-1.6.0
+~dev-python/ruamel-base-1.0.0
+~dev-python/ruamel-yaml-0.16.10
+~dev-python/ruamel-yaml-clib-0.2.0
+~dev-python/typing-3.5.2.2 **
+~dev-python/urwid-2.0.1
+~dev-python/watchdog-0.8.3-r1
+dev-python/protobuf-python amd64
+
+# required by net-misc/sherlock
+~dev-python/futures-2.1.5
+~dev-python/requests-futures-1.0.0
+
+#binwalk
+#https://github.com/matplotlib/matplotlib/commit/655c513a5e5440014677ee5afb08b0efa39f8e16
+~media-libs/qhull-2015.2
+~dev-python/cycler-0.10.0
+~dev-python/versioneer-0.16
+~dev-python/subprocess32-3.2.7
+
+#required by net-analyzer/recon-ng
+~dev-python/mechanize-0.4.3
+~dev-python/flasgger-0.9.5
+~dev-python/rq-1.10.1
+=dev-python/redis-py-3.5*
+
+#wafwoof
+=dev-python/pluginbase-1.0*
+
+# required by net-analyzer/owtf-2.0a::pentoo
+~dev-python/cookies-2.2.1
+~dev-python/psycopg-2.6.2
+~dev-python/pycurl-7.43.0.2
+~dev-python/PTP-0.3.0
+~dev-python/python-owasp-zap-v2-0.0.9
+~dev-python/PyVirtualDisplay-0.2
+
+# require by krackattacks-test-ap-ft
+dev-python/pyDes
+
+#Tiredful-API
+~dev-python/django-filter-0.15.3
+~dev-python/django-rest-framework-3.7.3
+~dev-python/django-oauth-plus-2.2.8
+~dev-python/oauthlib-2.0.3
+~dev-python/django-1.11.2
+~dev-python/coreapi-2.3.3
+~dev-python/itypes-1.1.0
+~dev-python/coreschema-0.0.4
+
+~dev-python/pynacl-1.2.0
+
+#gemata/portage
+~dev-python/bz2file-0.98
+
+#net-analyzer/sublist3r
+~dev-python/argparse-1.4.0
+
+#https://github.com/thewhiteh4t/pwnedOrNot
+dev-python/cfscrape
+
+#mitmproxy test flag:
+~dev-python/rstcheck-3.3
+~dev-python/pytest-timeout-1.2.1
+~dev-python/mypy-0.590
+~dev-python/pytest-cov-2.5.1
+~dev-python/pytest-3.4.1
+~dev-python/fields-5.0.0
+~dev-python/pytest-asyncio-0.8.0
+~dev-python/typed-ast-1.1.0
+~dev-python/pytest-xdist-1.22.2
+~dev-python/pytest-faulthandler-1.5.0
+~dev-python/asynctest-0.12.0
+~dev-python/pytest-forked-0.2
+~dev-python/py-1.5.3
+~dev-python/attrs-17.4.0
+
+#required by net-analyzer/owtf
+dev-python/PTP
+dev-python/Js2Py
+dev-python/sqlalchemy_mixins
+dev-python/PyVirtualDisplay
+
+~dev-python/pyjsparser-2.5.2
+~dev-python/selenium-3.13.0
+~dev-python/hrt-0.1.0
+~dev-python/markdown-2.6.9
+
+#required by sublist3r, fierce others
+#16.0 used for pycrypto -> pycryptodome migration
+~dev-python/dnspython-1.16.0
+
+#required by net-analyzer/droopescan
+~dev-python/cement-2.10
+~dev-python/pystache-0.5.4
+
+# required by net-analyzer/dirhunt
+~dev-python/geoip2-python-3.0.0
+~dev-python/proxy-db-0.2.5
+
+# required by net-analyzer/xsstrike
+~dev-python/fuzzywuzzy-0.18.0
+
+dev-python/splinter
+~dev-python/terminaltables-3.1.0
+~dev-python/selenium-3.141.0
+
+#broken https://bugs.gentoo.org/684734
+#~dev-python/pydispatcher-2.1.2
+
+#required by qark
+~dev-python/javalang-0.12.0
+
+dev-python/interfax
+~dev-python/inflection-0.3.1
+
+#required by theHarvester
+~dev-python/lxml-4.6.4
+~dev-python/pyyaml-6.0
+dev-python/shodan
+dev-python/grequests
+dev-python/aiomultiprocess
+dev-python/aiosqlite
+#testing
+dev-python/fastapi
+dev-python/limits
+dev-python/orjson-bin
+~dev-python/starlette-0.17.1
+=dev-python/aiofiles-0.7*
+dev-python/slowapi
+
+#Gentoo unstable
+=dev-python/click-plugins-1*
+~dev-python/censys-0.0.8
+~dev-python/typed-ast-1.3.1
+~dev-python/mypy_extensions-0.4.1
+~dev-python/mypy-0.701
+dev-python/aiodns amd64
+~dev-python/texttable-1.6.2
+dev-python/pycares amd64
+
+#=app-forensics/spiderfoot-2.12.0
+# required by app-forensics/spiderfoot
+~dev-python/adblockparser-0.7
+~dev-python/cheroot-6.5.4
+~dev-python/cherrypy-17.4.1
+~dev-python/jaraco-functools-1.20
+~dev-python/phonenumbers-8.3.1
+~dev-python/portend-2.2
+~dev-python/pygexf-0.2.2
+~dev-python/python-docx-0.8.10
+~dev-python/python-pptx-0.6.18
+~dev-python/python-whois-0.7.2
+~dev-python/tempora-1.14.1
+~dev-python/zc-lockfile-1.4
+~net-libs/stem-1.7.1
+
+#required by net-analyzer/GyoiThon
+~dev-python/hyperlink-18.0.0
+~dev-python/m2r-0.1.6
+~dev-python/automat-0.6.0
+#~dev-python/networkx-2.2
+#~dev-python/decorator-4.4.0
+~dev-python/queuelib-1.5.0
+~dev-python/cchardet-2.1.4
+~dev-python/parsel-1.5.1
+#~dev-python/jinja-2.10.1
+#~dev-python/msgpack-0.6.1
+#~dev-python/bottleneck-1.2.1
+
+dev-python/Scrapy
+~dev-python/w3lib-1.20.0
+dev-python/Protego
+#~dev-python/pandas-0.24.1
+#=dev-python/urllib3-1.25*
+~dev-python/requests-file-1.4.3
+~dev-python/tldextract-2.2.1
+
+#nessus api
+dev-python/nessrest
+
+# old seafile-pro requirements
+#~dev-python/django-redis-4.10.0
+#dev-python/jsonfield
+#dev-python/django-statici18n
+#dev-python/djangorestframework
+#dev-python/django_compressor
+#dev-python/rcssmin
+#dev-python/django-post_office-haiwen
+#dev-python/django-constance-haiwen
+#dev-python/rjsmin
+#dev-python/django-formtools
+#dev-python/python-cas-haiwen
+#dev-python/social-auth-core
+#~dev-python/python3-openid-3.1.0
+#~dev-python/python3-saml-1.9.0
+#dev-python/django-webpack-loader
+#dev-python/captcha
+
+#required by gvm-tools / openvas
+dev-python/python-gvm
+
+#required by openscap
+dev-python/json2html
+dev-python/yamllint
+
+# required by app-forensics/eagleeye (argument)
+dev-python/parse
+dev-python/fpdf
+dev-python/dlib
+dev-python/pyppeteer
+dev-python/spry
+dev-python/requests-html
+dev-python/fake-useragent
+dev-python/face_recognition
+dev-python/face_recognition_models
+dev-python/websockets
+dev-python/pyee
+#gentoo unstable
+~dev-python/cairocffi-0.9.0
+~dev-python/weasyprint-51
+
+# required by dwarf-debugger (argument)
+~dev-python/requests-2.22.0
+~dev-python/pyperclip-1.7.0
+
+#faraday
+dev-python/webapp2
+~dev-python/Flask-KVSession-0.6.2
+
+#pentoo
+dev-python/syslog-rfc5424-formatter
+dev-python/nplusone
+dev-python/faraday-plugins
+dev-python/filteralchemy-fork
+dev-python/webargs
+dev-python/flask-session
+dev-python/marshmallow-sqlalchemy
+
+dev-python/sqlalchemy_schemadisplay
+dev-python/filedepot
+dev-python/pypcapfile
+dev-python/flask-classful
+dev-python/flask-restless
+
+# required by app-exploits/enumdb
+dev-python/ipparser
+
+# required by "net-analyzer/GyoiThon
+
+# required by dev-util/mobsf
+dev-python/pdfkit
+dev-python/whitenoise
+dev-python/shelljob
+dev-python/oscrypto
+dev-python/http-tools
+dev-python/IP2Location
+~dev-python/wcmatch-8.3
+
+# required by net-analyzer/s3scanner
+~dev-python/coloredlogs-10.0
+~dev-python/pytest-xdist-1.31.0
+
+# required by net-analyzer/cipherscan
+~dev-python/tlslite-ng-0.7.5
+
+# required by net-analyzer/gitgraber
+~dev-python/python-crontab-20191023
+
+# required by proton
+dev-python/playsound
+
+#wifipumpkin3
+~dev-python/config-0.3.9
+~dev-python/pygtail-0.7.0
+~dev-python/libarchive-c-2.7
+~dev-python/scapy-http-1.8
+~dev-python/service_identity-16.0.0
+=dev-python/loguru-0.5*
+
+#required by rfcat
+=dev-python/pyside2-5.14*
+=dev-python/shiboken2-5.14*
+
+# requierd by net-analyzer/cottontail
+~dev-python/verboselogs-1.7
+~dev-python/coloredlogs-10.0
+
+# required by app-exploits/wesng
+~dev-python/MechanicalSoup-0.12.0
+
+# required by stegoveritas (argument)
+dev-python/stegoveritas-py010parser
+dev-python/stegoveritas-pfp
+dev-python/stegoveritas-binwalk
+dev-python/apng
+
+#required by sqlmap atlas
+=dev-python/humanfriendly-9*
+
+app-admin/opensnitch
+=dev-python/grpcio-tools-1.43*
+
+#empire
+dev-python/jq ~amd64
+=dev-python/python-socketio-5*
+=dev-python/python-engineio-4*
+
+#objection
+=dev-python/semver-2*
+
+#dev-ruby/nokogiri-1.11.4 requires >=dev-libs/libxml2-2.9.12
+=dev-libs/libxml2-2.9.12-r2
+
+#=dev-python/rich-10*
+
+=dev-python/Faker-9.8*
+
+#dev-python/setuptools-59.2.0
+~dev-python/nose-1.3.7_p20211111_p1
+
+#required by eagleeye
+=dev-python/weasyprint-53*
+~sci-libs/dlib-19.22
+~dev-python/pydyf-0.1.2
+
+#required by maryan
+=dev-python/cloudscraper-1.2*
+
+#dev-util/androguard
+~dev-python/pydot-1.4.2-r3
+
+# required by dev-util/gef (argument)
+#~dev-python/poetry-core-1.0.7
+#~dev-python/installer-0.4.0_p20220124
+#~dev-python/setuptools-60.5.0
+#~dev-python/more-itertools-8.12.0
+#~dev-python/ordered-set-4.0.2-r1
+#~dev-python/wheel-0.37.1-r1
+#=dev-python/filebytes-0.10*

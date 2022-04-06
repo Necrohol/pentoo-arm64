@@ -1,0 +1,23 @@
+~dev-java/sleep-2.1
+
+~dev-java/msgpack-0.6.12
+
+=dev-java/gradle-bin-6*
+~app-eselect/eselect-gradle-0.2
+
+#recaf
+dev-java/swt:4.10 ~amd64
+
+#jetty
+dev-java/jetty-io
+dev-java/jakarta-servlet-api
+dev-java/jetty-http
+dev-java/jetty-jmx
+dev-java/jakarta-servlet-api
+dev-java/jetty-server
+dev-java/logback
+
+dev-java/openjdk-bin:15
+virtual/jdk:15
+dev-java/openjdk-bin:17
+virtual/jdk:17

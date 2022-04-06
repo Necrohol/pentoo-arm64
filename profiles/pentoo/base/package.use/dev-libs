@@ -1,0 +1,30 @@
+dev-libs/capstone python
+dev-libs/libdbusmenu-qt qt5
+dev-libs/libpcre pcre16
+dev-libs/libpcre2 pcre32
+
+dev-libs/boost mpi python
+dev-libs/libxml2 icu
+dev-libs/nss utils
+
+# required by gnuradio
+dev-libs/Ice python
+
+#required by sqlitebrowser
+dev-libs/qcustomplot qt5
+
+#required by app-office/libreoffice-bin-5.4.2.2
+dev-libs/xmlsec nss
+
+dev-libs/boehm-gc threads
+
+#sys-apps/fwupd
+dev-libs/libjcat gpg pkcs7
+
+#required by sys-devel/gef
+dev-libs/keystone python
+
+dev-libs/libdbusmenu gtk3
+
+#these seem safe in my testing
+dev-libs/pocl cl20 hardening

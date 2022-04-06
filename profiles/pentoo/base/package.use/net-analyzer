@@ -1,0 +1,18 @@
+net-analyzer/ettercap plugins
+net-analyzer/hping tcl
+net-analyzer/hydra libssh postgres rdp
+net-analyzer/metasploit pcaprub
+net-analyzer/nmap ipv6 lua nping ndiff
+net-analyzer/rrdtool -ruby graph
+net-analyzer/scapy gnuplot tcpreplay
+net-analyzer/snort dynamicplugin zlib
+net-analyzer/ucsniff ffmpeg plugins
+net-analyzer/wireshark androiddump ares brotli ciscodump gcrypt geoip gnutls kerberos libxml2 lto lz4 portaudio smi sshdump threads
+
+#https://bugs.gentoo.org/show_bug.cgi?id=334329
+#net-analyzer/tcpdump -chroot
+
+#OpenVAS
+net-analyzer/gvm postgres -sqlite
+
+net-analyzer/gr-fosphor glfw

@@ -1,0 +1,2 @@
+#needs add dbi or remove sqlite
+www-servers/lighttpd -sqlite

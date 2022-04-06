@@ -1,0 +1,38 @@
+app-arch/libarchive -lz4 -zstd
+app-arch/zstd -lz4
+sys-auth/polkit -pam
+sys-auth/pambase -caps
+sys-libs/libcap -pam
+net-analyzer/rrdtool -python -ruby
+
+x11-libs/cairo -opengl
+
+sys-apps/util-linux -udev
+
+dev-lang/python -sqlite -tk
+
+sys-libs/ncurses -gpm
+
+dev-util/pkgconfig internal-glib
+
+dev-util/cmake -qt5
+
+media-libs/mesa -vaapi
+
+dev-lang/python -bluetooth
+
+x11-libs/gtk+ -cups
+
+media-libs/freetype -harfbuzz
+app-text/ghostscript-gpl -X -cups
+net-fs/samba -cups
+app-crypt/pinentry -gtk -qt5
+sys-auth/polkit -gtk
+
+net-dns/libidn2 -verify-sig
+dev-lang/python -verify-sig
+dev-libs/libxml2 -verify-sig
+dev-libs/libxslt -verify-sig
+dev-libs/libgcrypt -verify-sig
+app-crypt/gnupg -verify-sig
+dev-libs/openssl -verify-sig

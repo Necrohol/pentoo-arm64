@@ -1,0 +1,15 @@
+sys-libs/binutils-libs multitarget
+sys-libs/libcxx -unwind
+sys-libs/libcxxapi -unwind
+sys-libs/libunwind -static-libs
+sys-libs/ncurses threads tinfo unicode
+sys-libs/talloc python
+sys-libs/zlib minizip
+
+#required by samba4
+sys-libs/tdb python
+sys-libs/ntdb python
+sys-libs/tevent python
+
+#don't need this
+sys-libs/libseccomp -python
