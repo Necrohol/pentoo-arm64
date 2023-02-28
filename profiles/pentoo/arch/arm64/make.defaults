@@ -1,3 +1,3 @@
-VIDEO_CARDS="fbdev"
+VIDEO_CARDS="fbdev nvidia"
 GRUB_PLATFORMS="coreboot efi-32 efi-64 emu multiboot pc qemu arm  arm64  pc uboot xen "
 

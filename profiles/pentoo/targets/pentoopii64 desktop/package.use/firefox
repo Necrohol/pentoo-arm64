@@ -1,0 +1,19 @@
+# no sneaky downloading of binary blobs on first run, please...
+www-client/firefox -gmp-autoupdate
+# disable DRM plugin at build time, force hw graphics acceleration
+# and build using clang rather than gcc, for 62.0.2
+# (doesn't currently work for 62.0.3)
+# turn link-time optimization (lto) on for better performance
+=www-client/firefox-62.0.2 clang eme-free hwaccel lto
+<www-client/firefox-67.0 eme-free
+>=www-client/firefox-62.0.3 hwaccel lto
+# don't pull in patent-restricted code
+>=www-client/firefox-78.0.2 -openh264
+
+# requirements of firefox
+media-libs/harfbuzz icu
+media-libs/libvpx postproc
+# required by >=www-client/firefox-65
+dev-db/sqlite secure-delete
+# pgo needs xvfb (not used on aarch64 yet, but possibly will be soon)
+>=x11-base/xorg-server-1.19.6-r1 xvfb

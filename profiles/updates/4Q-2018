@@ -1,2 +1,0 @@
-move dev-python/frida-tools dev-util/frida-tools
-move dev-python/qtpy dev-python/qt-py
