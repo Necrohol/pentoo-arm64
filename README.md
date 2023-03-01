@@ -33,8 +33,8 @@ Validations ETC… / **Approved and up-streamed.** Is goal hear also..
 \#\#\# \\.testing-logs\\ usual build / snapshots or /
 [app-misc/asciinema](https://asciinema.org/) for console recordings….
 
-\#\#\#\# Quick-fixes for repos example echo "\*/\*::gentoo \~amd64"
+\#\#\#\# Quick-fixes for repos example echo "\*/\*::gentoo \~arm64"
 \>\>/etc/portage/package.accept_keywords/gentoo-repo
 
-echo "\*/\*::pentoo \~amd64"
+echo "\*/\*::pentoo \~arm64"
 \>\>/etc/portage/package.accept_keywords/pentoo-repo
