@@ -56,13 +56,41 @@ pikernel-build_src_configure() {
 		"${WORKDIR}/gentoo-kernel-config-${GENTOO_CONFIG_VER}"/no-debug.config
 	)
 
-	for n in "${targets[@]}"
-	do
-		[[ -f $n/.config ]] || emake O="${WORKDIR}/${n}" ARCH=arm64 CROSS_COMPILE=aarch64-unknown-linux-gnu- "${n}_defconfig"
-		export CHOST=aarch64-unknown-linux-gnu
-		internal_src_configure $n
-		ebegin "Selecting Kernel Config"
-	done
+for n in "${targets[@]}"
+do
+    if [[ $(uname -m) == "aarch64" ]]; then
+        CHOST=aarch64-unknown-linux-gnu
+        # No need to cross-compile, proceed as normal
+        [[ -f $n/.config ]] || emake O="${WORKDIR}/${n}" "${n}_defconfig"
+    else
+        case $(uname -m) in
+            "x86_64")
+                ARCH=amd64
+                CROSS_COMPILE=x86_64-pc-linux-gnu-
+                CHOST=x86_64-pc-linux-gnu
+                ;;
+            "riscv64")
+                ARCH=riscv64
+                CROSS_COMPILE=riscv64-unknown-linux-gnu-
+                CHOST=riscv64-unknown-linux-gnu
+                ;;
+            "i686")
+                ARCH=x86
+                CROSS_COMPILE=i686-pc-linux-gnu-
+                CHOST=i686-pc-linux-gnu
+                ;;
+            *)
+                echo "Unsupported architecture: $(uname -m)"
+                exit 1
+                ;;
+        esac
+        export CHOST
+        [[ -f $n/.config ]] || emake O="${WORKDIR}/${n}" ARCH=${ARCH} CROSS_COMPILE=${CROSS_COMPILE} "${n}_defconfig"
+    fi
+
+    internal_src_configure $n
+    ebegin "Selecting Kernel Config"
+done
 	pikernel-build_merge_configs "${merge_configs[@]}"
 }
 
