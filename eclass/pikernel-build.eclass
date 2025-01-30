@@ -27,17 +27,17 @@ REQUIRED_USE="|| ( bcmrpi bcm2709 bcmrpi3 bcm2711 )"
 SLOT="0"
 
 pikernel-build_get_targets() {
-	targets=()
-	configs=()
-	for n in bcmrpi bcm2709 bcmrpi3 bcm2711
-	do
-	if use ${n}; then
-		ebegin "using $n"
-		targets+=( "${n}" )
-		mkdir -p "${WORKDIR}/${n}" || die
-		configs+=( "${n}/.config" )
-	fi
-	done
+    targets=()
+    configs=()
+    for n in bcmrpi bcm2709 bcmrpi3 bcm2711 orangepi5 orangepi5plus rpizero odroidxu4 odroidn2 odroidc4 apple_m1 apple_m2 apple_m3 ampere_altra ampereone
+    do
+        if use ${n}; then
+            ebegin "using $n"
+            targets+=( "${n}" )
+            mkdir -p "${WORKDIR}/${n}" || die
+            configs+=( "${n}/.config" )
+        fi
+    done
 }
 
 
