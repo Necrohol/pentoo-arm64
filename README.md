@@ -1,4 +1,4 @@
-# pentoo-arm64
+# pentoo-custom
 
 **pentoo-arm64** experimental profiles for
 [Pentoo](https://github.com/pentoo/pentoo-overlay/) Linux
