@@ -15,7 +15,7 @@ REQUIRED_USE="|| ( riscv64 milkv_mars milkv_pioneer milkv_jupiter sifive bpi_f3 
              ^^ ( gcc llvm )"
 SLOT="0"
 
-milkvkernel_get_targets() {
+riscvkernel_get_targets() {
     targets=()
     configs=()
     for n in riscv64 milkv_mars milkv_pioneer milkv_jupiter sifive bpi_f3
@@ -29,7 +29,7 @@ milkvkernel_get_targets() {
     done
 }
 
-milkvkernel_setup_cross_compile() {
+riscvkernel_setup_cross_compile() {
     local host_arch=$(uname -m)
     
     if [[ "${host_arch}" == "riscv64" ]]; then
@@ -137,10 +137,10 @@ milkvkernel_setup_cross_compile() {
     fi
 }
 
-milkvkernel_src_configure() {
+riscvkernel_src_configure() {
     debug-print-function ${FUNCNAME} "${@}"
-    milkvkernel_get_targets
-    milkvkernel_setup_cross_compile
+    riscvkernel_get_targets
+    riscvkernel_setup_cross_compile
     
     for n in "${targets[@]}"
     do
@@ -175,10 +175,10 @@ milkvkernel_src_configure() {
     done
 }
 
-milkvkernel_src_compile() {
+riscvkernel_src_compile() {
     debug-print-function ${FUNCNAME} "${@}"
-    milkvkernel_get_targets
-    milkvkernel_setup_cross_compile
+    riscvkernel_get_targets
+    riscvkernel_setup_cross_compile
     
     for n in "${targets[@]}"
     do
@@ -204,10 +204,10 @@ milkvkernel_src_compile() {
     done
 }
 
-milkvkernel_src_install() {
+riscvkernel_src_install() {
     debug-print-function ${FUNCNAME} "${@}"
-    milkvkernel_get_targets
-    milkvkernel_setup_cross_compile
+    riscvkernel_get_targets
+    riscvkernel_setup_cross_compile
     
     for n in "${targets[@]}"
     do
@@ -244,7 +244,7 @@ milkvkernel_src_install() {
     done
 }
 
-milkvkernel_pkg_postinst() {
+riscvkernel_pkg_postinst() {
     debug-print-function ${FUNCNAME} "${@}"
     
     einfo "Kernel installation completed for the following targets:"
